@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="Login"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Username"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_span="2"
+            android:text="enter id"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:text="Password"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_span="2"
+            android:text="enter password"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+
+            android:text="OK" />
+
+        <Button android:text="Cancel" />
+
+        <Button
+
+            android:text="Forgot password" />
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mar18Activity</string>
+    <string-array name="country">
+        <item>VN</item>
+        <item>CN</item>
+        <item>JP</item>
+    </string-array>
+</resources>
